@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+.venv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# PyTorch / Training
+*.pt
+*.pth
+*.bin
+*.safetensors
+outputs/
+checkpoints/
+*.log
+wandb/
+tensorboard/
+
+# Model weights (large files)
+*.gguf
+*.ggml
+*.gptq
+*.awq
+
+# Data
+data/*.jsonl
+data/*.json
+!data/README.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+*.env
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Cache
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large files (use Git LFS if needed)
+# *.bin
+# *.safetensors
